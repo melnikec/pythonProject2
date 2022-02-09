@@ -9,6 +9,21 @@
 
 # print (1 and 110)
 
-a=2
-b=2
-print (a is b)
+# a=2
+# b=2
+# print (a is b)
+
+# Home Work
+
+n1 = int(input("Введите число: "))
+
+n2 = 0
+
+while n1 > 0:
+    digit = n1 % 10
+    n1 = n1 // 10
+
+    n2 = n2 * 10
+    n2 = n2 + digit
+
+print(n2)
