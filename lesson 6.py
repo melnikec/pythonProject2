@@ -132,10 +132,10 @@
 # list_keys = ['hostname', 'location', 'vendor', 'model', 'ios', 'ip']
 # tuple_keys = tuple(list_keys)
 # print((tuple_keys))
-a = (1, 2, 3, 4, 5, 6)
-b = [1, 2, 3, 4, 5, 6]
-print(a.__sizeof__())
-print(b.__sizeof__())
+# a = (1, 2, 3, 4, 5, 6)
+# b = [1, 2, 3, 4, 5, 6]
+# print(a.__sizeof__())
+# print(b.__sizeof__())
 
 # ==========
 # tuple_keys[1] = 'test' # кортеж неизменяем, присвоить новое значение нельзя
